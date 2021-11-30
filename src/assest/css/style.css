@@ -1,0 +1,109 @@
+.container-fluid {
+    margin: 0px;
+}
+
+.card {
+    min-width: 50%;
+    padding: 0 20px;
+    border-width: 2px;
+    border-color: rgb(205, 0, 32);
+}
+
+.legend {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: -25px;
+    left: 25px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgb(205, 0, 32);
+    background: rgb(205, 0, 32);
+    /* background: linear-gradient(87deg, rgb(239, 61, 17) 0px, rgb(226, 11, 11) 100%); */
+}
+
+.legend h4 {
+    color: #fff;
+    text-align: center;
+    /* font-size: 25px; */
+    /* font-weight: 400; */
+}
+
+.navImg {
+    height: 65px;
+    width: auto;
+    padding-left: 20px;
+    margin-left: 80px;
+}
+
+.btnCMC {
+    /* border: none; */
+    /* outline: none; */
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(205, 0, 32);
+    background: rgb(205, 0, 32);
+    /* background: linear-gradient(87deg, rgb(240, 134, 64) 0px, rgb(226, 11, 11) 100%); */
+    
+    
+}
+
+.btnCMC:hover {
+    cursor: pointer;
+    /* border: none; */
+    outline: none;
+    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
+.btnCMC:focus {
+    box-shadow: none;
+    /* background-color: rgba(239, 61, 17, 0.8); */
+}
+
+.bg-gradient-info {
+    height: 2px;
+    width: 95%;
+    margin: 15px auto;
+    /* background: rgb(205, 0, 32); */
+    background: linear-gradient(87deg, rgb(239, 61, 17) 0px, rgb(226, 11, 11) 100%);
+}
+
+.form-group div {
+    align-items: center;
+}
+
+.iconItems {
+    height: 60px;
+    min-width: 90%;
+    border: 1px solid rgb(205, 0, 32);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    align-items: center;
+}
+
+.iconItems span {
+    height: 30px;
+    /* width: 30px; */
+    padding: 0 20px;
+    justify-content: center;
+}
+
+/* .iconItems input {
+    background-color: rgb(75, 135, 153);
+} */
+
+input {
+    height: 95%;
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.btnBuyNow {
+    text-transform: uppercase;
+}

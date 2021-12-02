@@ -67,7 +67,7 @@
     width: 95%;
     margin: 15px auto;
     /* background: rgb(205, 0, 32); */
-    background: linear-gradient(87deg, rgb(239, 61, 17) 0px, rgb(226, 11, 11) 100%);
+    background: linear-gradient(87deg, rgb(239, 61, 17) 0px, rgb(219, 2, 2) 100%);
 }
 
 .form-group div {
@@ -85,9 +85,20 @@
     align-items: center;
 }
 
-.iconItems span {
+.walletIcon {
+    padding: 10px;
+    border: 1px solid rgb(205, 0, 32);
+    border-radius: 5px;
+}
+
+.walletIcon img{
     height: 30px;
-    /* width: 30px; */
+    padding: 0 10px;
+    justify-content: center;
+}
+
+.iconItems span {
+    height: 25px;
     padding: 0 20px;
     justify-content: center;
 }
